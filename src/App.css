@@ -121,7 +121,7 @@
   margin: 0 auto;
   padding: 4rem 1.5rem 6rem;
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 0.8fr 1.2fr;
   align-items: center;
   gap: 3rem;
 }
@@ -231,7 +231,7 @@
 .hero__badge {
   position: absolute;
   bottom: 0.5rem;
-  right: calc(50% - min(140px, 35vw) - 0.5rem);
+  left: calc(50% - min(140px, 35vw) - 0.5rem);
   background: var(--surface);
   border: 1px solid var(--border);
   padding: 0.4rem 0.8rem;

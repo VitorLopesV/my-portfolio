@@ -15,6 +15,13 @@ function Hero() {
     <section id="topo" className="hero">
       <div className="hero__glow" aria-hidden="true" />
 
+      <div className="hero__portrait">
+        <div className="hero__portrait-ring">
+          <img src={profilePhoto} alt="Foto de Vitor Lopes" />
+        </div>
+        <span className="hero__badge">RJ 🌴</span>
+      </div>
+
       <div className="hero__content">
         <p className="hero__eyebrow">Olá, tudo bem? 👋</p>
         <h1>
@@ -38,13 +45,6 @@ function Hero() {
             Bora conversar
           </a>
         </div>
-      </div>
-
-      <div className="hero__portrait">
-        <div className="hero__portrait-ring">
-          <img src={profilePhoto} alt="Foto de Vitor Lopes" />
-        </div>
-        <span className="hero__badge">RJ 🌴</span>
       </div>
     </section>
   )
