@@ -185,11 +185,11 @@
   font-size: 1.02rem;
 }
 
-.hero__actions {
+.hero__skills {
   display: flex;
-  gap: 1rem;
-  margin-top: 2.2rem;
   flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 2.2rem;
 }
 
 .hero__portrait {
@@ -251,7 +251,7 @@
     margin-inline: auto;
   }
 
-  .hero__actions {
+  .hero__skills {
     justify-content: center;
   }
 

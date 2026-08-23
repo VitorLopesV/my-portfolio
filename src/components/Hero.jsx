@@ -8,6 +8,17 @@ const ROLES = [
   'Café -> commit -> deploy',
 ]
 
+const SKILLS = [
+  { name: 'Java', emoji: '☕' },
+  { name: 'Spring', emoji: '🍃' },
+  { name: 'MySQL', emoji: '🗄️' },
+  { name: 'MongoDB', emoji: '🍃' },
+  { name: 'Docker', emoji: '🐳' },
+  { name: 'Git', emoji: '🔧' },
+  { name: 'HTML & CSS', emoji: '🎨' },
+  { name: 'React', emoji: '⚛️' },
+]
+
 function Hero() {
   const typed = useTypewriter(ROLES)
 
@@ -37,13 +48,12 @@ function Hero() {
           por aqui mesmo, nesse portfólio. 🚀
         </p>
 
-        <div className="hero__actions">
-          <a className="btn btn--primary" href="#projetos">
-            Ver projetos
-          </a>
-          <a className="btn btn--ghost" href="#contato">
-            Bora conversar
-          </a>
+        <div className="hero__skills">
+          {SKILLS.map((skill) => (
+            <span key={skill.name} className="chip">
+              <span aria-hidden="true">{skill.emoji}</span> {skill.name}
+            </span>
+          ))}
         </div>
       </div>
     </section>
