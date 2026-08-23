@@ -38,15 +38,6 @@ function Navbar() {
             {link.label}
           </a>
         ))}
-        <a
-          className="navbar__cta"
-          href="https://github.com/VitorLopesV"
-          target="_blank"
-          rel="noreferrer"
-          onClick={() => setOpen(false)}
-        >
-          GitHub
-        </a>
       </nav>
     </header>
   )
