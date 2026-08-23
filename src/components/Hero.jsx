@@ -42,11 +42,6 @@ function Hero() {
           <span className="hero__caret">{'>'}</span> {typed}
           <span className="hero__cursor">|</span>
         </p>
-        <p className="hero__lead">
-          Estudante de Ciência da Computação no Rio de Janeiro, construindo APIs
-          sólidas com Java e Spring — e aos poucos me aventurando pelo front-end
-          por aqui mesmo, nesse portfólio. 🚀
-        </p>
 
         <div className="hero__skills">
           {SKILLS.map((skill) => (
