@@ -185,11 +185,18 @@
   font-size: 1.02rem;
 }
 
+.hero__about {
+  color: var(--text-dim);
+  font-size: 1rem;
+  margin: 1.5rem 0;
+  line-height: 1.6;
+}
+
 .hero__skills {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin-top: 2.2rem;
+  margin-top: 1.5rem;
 }
 
 .hero__portrait {

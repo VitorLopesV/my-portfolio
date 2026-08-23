@@ -43,6 +43,10 @@ function Hero() {
           <span className="hero__cursor">|</span>
         </p>
 
+        <p className="hero__about">
+          Sou desenvolvedor de software apaixonado por criar soluções escaláveis e eficientes. Trabalho com tecnologias modernas e adoro resolver problemas através do código.
+        </p>
+
         <div className="hero__skills">
           {SKILLS.map((skill) => (
             <span key={skill.name} className="chip">
