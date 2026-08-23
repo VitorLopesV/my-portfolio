@@ -50,10 +50,6 @@ function Hero() {
             </span>
           ))}
         </div>
-
-        <a className="btn btn--primary" href="#topo">
-          Sobre mim
-        </a>
       </div>
     </section>
   )
