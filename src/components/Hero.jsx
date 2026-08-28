@@ -3,7 +3,6 @@ import profilePhoto from '../assets/profile.jpg'
 
 const ROLES = [
   'Desenvolvedor Back-end',
-  'Java & Spring enthusiast',
   'Sempre aprendendo algo novo',
   'Café -> commit -> deploy',
 ]
@@ -16,7 +15,6 @@ const SKILLS = [
   { name: 'Docker', emoji: '🐳' },
   { name: 'Git', emoji: '🔧' },
   { name: 'HTML & CSS', emoji: '🎨' },
-  { name: 'React', emoji: '⚛️' },
 ]
 
 function Hero() {
@@ -44,7 +42,7 @@ function Hero() {
         </p>
 
         <p className="hero__about">
-          Sou desenvolvedor de software apaixonado por criar soluções escaláveis e eficientes. Trabalho com tecnologias modernas e adoro resolver problemas através do código.
+          Desenvolvedor de Software com mais de 3 anos de experiência no mercado de tecnologia. Atualmente, estou finalizando a graduação em Ciência da Computação na Universidade Estácio de Sá (UNESA) e totalmente mergulhado no universo do desenvolvimento back-end, com foco principal em Java e no ecossistema Spring. No meu dia a dia, coloco a mão na massa desenvolvendo, mantendo e otimizando desde softwares embarcados até arquiteturas de sistemas. Fora do ambiente de trabalho, levo essa paixão por tecnologia para a vida real: no meu tempo livre, procuro qualquer tarefa da minha rotina diária que eu possa automatizar. Além disso, curto bastante compartilhar conhecimento e tenho um perfil no Instagram/tiktok onde dou dicas de programação de forma leve e descontraída para ajudar quem está começando no mundo da tecnologia e faço alguns memes com situações diárias da vida de um desenvolvedor.
         </p>
 
         <div className="hero__skills">
