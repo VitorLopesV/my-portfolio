@@ -274,6 +274,7 @@
 /* ---------- About ---------- */
 .about,
 .projects,
+.hobbies,
 .contact {
   opacity: 0;
   transform: translateY(24px);
@@ -282,6 +283,7 @@
 
 .about.is-visible,
 .projects.is-visible,
+.hobbies.is-visible,
 .contact.is-visible {
   opacity: 1;
   transform: translateY(0);
@@ -414,6 +416,68 @@
 .project-card__link:hover {
   color: var(--accent);
   gap: 0.5rem;
+}
+
+/* ---------- Hobbies ---------- */
+.hobbies__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.hobby-card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.6rem 1.8rem 1.8rem;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.hobby-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.hobby-card__dots {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 1.1rem;
+}
+
+.hobby-card__dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--border);
+}
+
+.hobby-card__dots span:nth-child(1) {
+  background: #ff6167;
+}
+
+.hobby-card__dots span:nth-child(2) {
+  background: #ffbd44;
+}
+
+.hobby-card__dots span:nth-child(3) {
+  background: #28c941;
+}
+
+.hobby-card__emoji {
+  font-size: 1.8rem;
+  display: inline-block;
+  margin-bottom: 0.8rem;
+}
+
+.hobby-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+
+.hobby-card p {
+  color: var(--text-dim);
+  font-size: 0.95rem;
 }
 
 /* ---------- Contact ---------- */

@@ -34,7 +34,7 @@ function Contact() {
     <section id="contato" className="section">
       <div ref={ref} className={`contact ${visible ? 'is-visible' : ''}`}>
         <div className="section__heading">
-          <span className="section__tag">03. Contato</span>
+          <span className="section__tag">04. Contato</span>
           <h2>Bora trocar uma ideia?</h2>
           <p className="contact__lead">
             Aberto a oportunidades, colaborações ou só um papo sobre código.
