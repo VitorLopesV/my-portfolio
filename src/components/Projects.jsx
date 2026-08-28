@@ -19,12 +19,12 @@ const PROJECTS = [
     url: 'https://github.com/VitorLopesV/Silvinhos',
   },
   {
-    name: 'Pensionato',
-    emoji: '🏠',
+    name: 'ClipStash',
+    emoji: '📷',
     description:
-      'Desafio de faculdade: sistema para gerenciar o aluguel de quartos de um pensionato entre grupos de alunos.',
-    stack: ['Java'],
-    url: 'https://github.com/VitorLopesV/Pensionato',
+      'Projeto criado para resolver uma dor real: eu salvava referências de vídeos e conteúdos em vários lugares diferentes (notas, favoritos, mensagens) e no fim perdia o controle de quais eu já tinha usado e quais ainda estavam pendentes.',
+    stack: ['Java', 'Spring Boot', 'MySQL'],
+    url: 'https://github.com/VitorLopesV/clip-stash',
   },
   {
     name: 'ContaJusta',
@@ -43,12 +43,12 @@ const PROJECTS = [
     url: 'https://github.com/VitorLopesV/folder-organizer',
   },
   {
-    name: 'FinanceFlow',
+    name: 'Simple-flow',
     emoji: '💸',
     description:
-      'Projeto voltado para gestão financeira pessoal, ainda em evolução.',
-    stack: ['Java'],
-    url: 'https://github.com/VitorLopesV/FinanceFlow',
+      'Sistema de controle financeiro pessoal criado para acabar com a bagunça das planilhas. Organiza entradas, saídas, cartões de crédito e faturas de forma simples e rápida',
+    stack: ['HTML','CSS','Vue', 'Typescript'],
+    url: 'https://github.com/VitorLopesV/simple-flow',
   },
 ]
 
@@ -60,7 +60,7 @@ function Projects() {
       <div ref={ref} className={`projects ${visible ? 'is-visible' : ''}`}>
         <div className="section__heading">
           <span className="section__tag">02. Projetos</span>
-          <h2>Coisas que eu construí (e dos que tenho orgulho)</h2>
+          <h2>Alguns dos meus projetos</h2>
         </div>
 
         <div className="projects__grid">
